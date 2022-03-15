@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 String linea = contenido.readLine();
                 String todo = "";
 
-                while (linea == null){
+                while (linea != null){
                     todo = todo + linea +"\n";
                     linea = contenido.readLine();
                 }
